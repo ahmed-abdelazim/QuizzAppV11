@@ -7,4 +7,6 @@
     <string name="question_5">5. Which one of these keys is NOT used to enter bios setup?</string>
     <string name="question_6">6. What is the voltage for this connector?</string>
     <string name="question_7">7. Name this Card:</string>
+    <string name="submit">Submit</string>
+    <string name="todo">TODO</string>
 </resources>

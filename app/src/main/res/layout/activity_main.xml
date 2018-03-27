@@ -10,7 +10,7 @@
         android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
@@ -57,7 +57,7 @@
                         android:id="@+id/question_1_first_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/phone1"/>
+                        android:src="@drawable/phone1" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -68,7 +68,7 @@
                         android:id="@+id/question_1_second_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/ethernet"/>
+                        android:src="@drawable/ethernet" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -80,7 +80,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:src="@drawable/phone2"
-                        />
+                        android:contentDescription="@string/todo" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -129,7 +129,7 @@
                         android:id="@+id/question_2_first_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/amd"/>
+                        android:src="@drawable/amd" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -140,7 +140,7 @@
                         android:id="@+id/question_2_second_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/aclogo"/>
+                        android:src="@drawable/aclogo" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -151,7 +151,7 @@
                         android:id="@+id/question_2_third_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/konami"/>
+                        android:src="@drawable/konami" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -184,7 +184,7 @@
                         android:id="@+id/question_3_first_checkbox_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/fedora"/>
+                        android:src="@drawable/fedora" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -201,7 +201,7 @@
                         android:id="@+id/question_3_second_checkbox_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/centos"/>
+                        android:src="@drawable/centos" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -218,7 +218,7 @@
                         android:id="@+id/question_3_third_checkbox_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/apple"/>
+                        android:src="@drawable/apple" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -238,7 +238,7 @@
                 android:id="@+id/question_4_logo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ubuntu"/>
+                android:src="@drawable/ubuntu" android:contentDescription="@string/todo" />
 
             <EditText
                 android:id="@+id/question_4_edit_text"
@@ -292,7 +292,7 @@
                         android:id="@+id/question_5_first_radio_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/f2"/>
+                        android:src="@drawable/f2" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -303,7 +303,7 @@
                         android:id="@+id/question_5_second_radio_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/del"/>
+                        android:src="@drawable/del" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
@@ -314,7 +314,7 @@
                         android:id="@+id/question_5_third_radio_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/f4"/>
+                        android:src="@drawable/f4" android:contentDescription="@string/todo" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -333,7 +333,7 @@
                 android:id="@+id/question_6_logo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/a8pin" />
+                android:src="@drawable/a8pin" android:contentDescription="@string/todo" />
 
             <EditText
                 android:id="@+id/question_6_edit_text"
@@ -353,7 +353,7 @@
                 android:id="@+id/question_7_logo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/wlan" />
+                android:src="@drawable/wlan" android:contentDescription="@string/todo" />
 
             <EditText
                 android:id="@+id/question_7_edit_text"
@@ -366,7 +366,7 @@
             android:id="@+id/submit_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
+            android:text="@string/submit"
             android:onClick="checkQuiz"/>
     </LinearLayout>
     </ScrollView>
