@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quizz App V1.1</string>
+    <string name="question_1">1. Which one of these cables used for LAN ?</string>
+    <string name="question_2">2. Which one of these logos is for a video card GPU vendor?</string>
+    <string name="question_3">3. Check all Linux distributions logos.</string>
+    <string name="question_4">4. What is the name of this Linux distribution?</string>
+    <string name="question_5">5. Which one of these keys is NOT used to enter bios setup?</string>
+    <string name="question_6">6. What is the voltage for this connector?</string>
+    <string name="question_7">7. Name this Card:</string>
+</resources>
